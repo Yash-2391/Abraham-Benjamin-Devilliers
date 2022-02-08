@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AB Devilliers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Dongle;
+        }
+
+        #main {
+            background-color: rgb(216, 212, 212);
+            border: 3px solid gray;
+            /* height: 100vh; */
+            padding: 10px;
+        }
+
+        #title {
+            font-size: 4vw;
+            text-align: center;
+            margin: 10px;
+        }
+
+        #img-div {
+            text-align: center;
+            margin: 10px;
+        }
+
+        img {
+            max-width: 60%;
+        }
+
+        #img-info {
+            margin: 10px;
+            font-size: 2vw;
+        }
+
+        #footer {
+            background-color: black;
+            color: bisque;
+            font-size: 2vw;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 20px;
+        }
+
+        #btop {
+            text-decoration: none;
+            color: bisque;
+        }
+
+        #btop:hover {
+            transform: scale(1.2);
+        }
+
+        #list li {
+            list-style-type: none;
+        }
+
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            padding: 0px 20px;
+        }
+
+        #list,
+        #help {
+            display: flex;
+            align-items: center;
+        }
+
+        #list a,
+        #help a {
+            padding: 0px 20px;
+            font-size: 2vw;
+            text-decoration: none;
+            color: bisque;
+        }
+
+        #list a:hover,
+        #help a:hover {
+            transform: scale(1.2);
+            color: black;
+            background-color: bisque;
+            border-radius: 10px;
+            border: 2px solid gray;
+        }
+
+        #help {}
+
+        #companyname {
+            color: bisque;
+            padding: 0;
+            margin: 0;
+        }
+
+        #recordList {
+            margin: 20px;
+            display: block;
+            font-size: 2vw;
+        }
+
+        #recordList ul {
+            margin: 40px;
+        }
+
+        #careerInfo {
+            font-size: 2vw;
+            margin: 10px;
+        }
+
+        .carcomp p {
+            margin: 10px;
+        }
+
+        #highlights {
+            margin: 10px;
+            font-size: 2vw;
+        }
+
+        #imgandvid {
+            font-size: 1.5vw;
+            display: grid;
+            grid-template-columns: auto auto;
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+
+        .card {
+            margin: 10px;
+            display: flex;
+            box-shadow: 0 10px 20px gray;
+        }
+
+        .card img,
+        .card video {
+            max-width: 60%;
+            padding: 5px;
+            flex-shrink: 2;
+        }
+
+        .card p {
+            padding: 10px;
+            flex-shrink: 1;
+            flex-grow: 2;
+        }
+
+        @media (max-width:1200px) {
+
+            #highlights img,
+            #highlights video {
+                width: 200px;
+                height: 200px;
+            }
+        }
+
+        @media (max-width:560px) {
+            #imgandvid {
+                font-size: 2vw;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="companyname">
+            <h2>SoundCoder&copy;</h2>
+            <h5>Sports Section</h5>
+        </div>
+        <div id="list">
+            <a href="#navbar">Home</a>
+            <a href="#recordList">Records</a>
+            <a href="#careerInfo">Career</a>
+            <a href="#highlights">Best Moments</a>
+        </div>
+        <div id="help">
+            <a href="https://www.instagram.com/abdevilliers17/" target="_blank">More!</a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="title">
+            <h1>Abraham Benjamin Devilliers</h1>
+        </div>
+        <figure id="img-div">
+            <img src="images/AB1.png" alt="abd">
+            <figcaption id="img-info">
+                <p>Abraham Benjamin de Villiers (born 17 February 1984) is a former South African professional
+                    cricketer. De Villiers was named as the ICC ODI Player of the Year three times during his 15-year
+                    international career and was one of the five Wisden cricketers of the decade at the end of 2019.</p>
+            </figcaption>
+            </p>
+            </figcaption>
+        </figure>
+        <hr>
+        <div id="recordList">
+            <h1 id="recordTitle">Records And Acheivements</h1>
+            <p>AB de Villiers or popularly called ABD by the fans is a South African batsman famous for his 360-degree
+                style of play. Since his debut in 2004, the pretorian has risen to gargantuan heights with his sheer raw
+                talent and
+                an incredible array of shots that has befuddled the fans over the years.</p>
+            <div id="list1">
+                <ul>
+                    <li>2004- Debut in Test Matches aginst England</li>
+                    <li>2004- Maiden Test century vs England</li>
+                    <li>2005- ODI Debut</li>
+                    <li>2006- T20I Debut</li>
+                    <li>2007- Maiden ODI hundred</li>
+                    <li>2010- ICC ODI player of the year</li>
+                    <li>2012- Announced test captian</li>
+                    <li>2013- Top of the ICC Test and ODI ranking</li>
+                    <li>2014- ICC ODI player of the year</li>
+                    <li>2015- Fastest ODI Century</li>
+                    <li>2015- ICC ODI player of the year</li>
+                    <li>2016- Gave up Test captaincy due to elbow injury</li>
+                    <li>Fastest ODI century :- 31 balls vs WI</li>
+                    <li>Fastest 150 in ODI :- 64 balls vs WI</li>
+                    <li>Fastest fifty in ODI :- 16 balls vs WI</li>
+                    <li>Highest T20 partnership with Virat Kohli—229 runs</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div id="careerInfo">
+            <h2>Career</h2>
+            <div class="carcomp">
+                <h2>Test Career</h2>
+                <p>After impressing the selectors during his short stint in the first-class arena, AB de Villiers was
+                    drafted into the major league to play Test cricket. AB de Villiers made his Test debut along with
+                    Dale Steyn against England on 17 December 2004 at the age of 20.
+                    ABD was quick to impress the cricket pundits as he stroked a well-crafted 52-runs inning in his
+                    fourth inning of Test career and saved South Africa from an imminent defeat. He also registered his
+                    first Test century in the series - a fluent 109 on his home ground in Centurion. In a matter of
+                    single series, ABD had shown that he belonged to this level.
+                    After a brief slump in form in 2006 and 2007, de Villiers' returned early in 2008 with a blistering
+                    103 not out off 109 balls in Durban against West Indies.
+                    In the first Test in Perth, De Villiers scored a match-winning century to help South Africa chase
+                    down the second-highest-ever fourth innings target of 414 with six wickets in hand. This was South
+                    Africa's first Test victory in Australia in 15 years and appeared to go a long way towards tilting
+                    world cricket's balance of power after over a decade of Australian dominance.
+                    Apart from his usual attacking style of Cricket, AB de Villiers is also known for his defensive
+                    style of cricket when the situation demands.
+                    With South Africa struggling to save the Adelaide Test against Australia during the tour Down Under
+                    in 2012-13, de Villiers curbed his natural instincts and dead-batted his way to a 220-ball 33 in one
+                    of the more exciting draws of all time.
+                </p>
+            </div>
+            <div class="carcomp">
+                <h2>ODI Career</h2>
+                <p>AB made his ODI debut against England on 2 February 2005 at Bloemfontein. England batted first and
+                    scored 270/5 in their 50 overs. South Africa too scored 270 for the loss of eight wickets and the
+                    match was tied. AB scored 20 from 56 balls.
+                    ABD made his maiden ODI hundred, 146 from just 130 balls including 5 sixes and 12 fours, in the
+                    World Cup Super 8 game against West Indies on 10 April 2007.
+                    His performance in the 2015 World Cup had single-handedly sent the South African side to the final
+                    of the quadrennial tournament. En route the semi-finals, ABD had hit the fastest ODI 150 against
+                    West Indies in 64 deliveries.</p>
+            </div>
+            <div class="carcomp">
+                <h2>T20I Career</h2>
+                <p>The face of innovation in modern-day cricket, AB's achievements in the limited-overs game are more
+                    qualitative than quantitative.
+                    His T20 debut came against Australia on 24 February 2006 at the Wanderers Stadium. De Villiers faced
+                    only 3 balls for no runs and remained not out.
+                    On 21 February 2016, against England, de Villiers scored the fastest T20I fifty by a South African,
+                    in just 21 balls. He completed the innings with 79 runs in 29 balls and led South Africa to a clean
+                    sweep in the T20I series
+                    In January 2020, it was rumoured that de Villiers was in talks to make a comeback to the South
+                    African T20I side for the 2020 ICC Men's T20 World Cup. de Villiers himself confirmed the rumors but
+                    with COVID-19 pushing the World Cup by a year, the fans are waiting with bated breaths for AB de
+                    Villiers to make a comeback.
+                </p>
+            </div>
+            <div class="carcomp">
+                <h2>IPL Career</h2>
+                <p>
+                    In the IPL, he played the first three seasons for the Delhi Daredevils. He then shifted base to the
+                    Royal Challengers Bangalore (RCB) in 2011. ABD will be again donning the RCB jersey in the 13th
+                    edition of IPL, being organized in Dubai this time around due to the COVID-19 pandemic.
+                    In 154 IPL matches, he has scored 4395 runs at an average of 39.95 and a strike rate of 151.23. It
+                    includes 33 half-centuries and three centuries. His highest score of unbeaten 133 runs came against
+                    Mumbai Indians in 2015.
+                </p>
+            </div>
+            <div class="carcomp">
+                <h2>Captaincy</h2>
+                <p> Following South Africa's exit from the 2011 World Cup, de Villiers was named as the captain of their
+                    ODI and T20I team in June. Owing to the workload and pressure, he gave up the T20I captaincy in
+                    early 2013 but continued to play as South Africa's main batsman and their first choice
+                    wicket-keeper.AB’s first international match as captain was an ODI against Sri Lanka on 11 January
+                    2012 at Paarl.
+                    South Africa posted 301/8 in their 50 overs. Sri Lanka were bowled out for a paltry 43 (their lowest
+                    total in ODIs) in the 21st over and suffered their worst defeat in terms of runs.
+                    He has captained South Africa in 103 ODIs and has won 59 of those. He led the Proteas in the ICC
+                    Cricket World Cup 2015 and they bagged a spot in the semis.
+                    In Tests, AB has captained only for three matches and has won two and lost one. In the shortest
+                    format, he has captained for 18 matches and has won eight of them</p>
+            </div>
+        </div>
+        <hr>
+        <div id="highlights">
+            <h2>Best Moments</h2>
+            <div id="imgandvid">
+                <div class="card">
+                    <img src="images/abi1400_400.png" alt="img">
+                    <p>This was moment when ABD registered the record of Fastest century in just 31 balls.
+                        He achieved the feat against West Indies in the second ODI of the five-match series at
+                        Johannesburg.
+                        AB de Villiers registered the fastest 50 and 100 in the same match and the records stand to
+                        date.
+                        Chris gayle bowed down to ABD saying "You are a legend".
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/abi2400_400.png" alt="img">
+                    <p>This moment was registered as the highest run batting partnership between AB and Virat.
+                        they both smashed the bowlers of gujarat Lions and registered a partnership of 229 runs.
+                        they both recorded centuries in that match, with AB acoring 129 runs and virat scoring 104 runs.
+                    </p>
+                </div>
+                <div class="card">
+                    <video src="images/touughest batsmen.mp4" width="400px" height="400px" controls></video>
+                    <p>The interview of the best players prasing AB Devilliers</p>
+                </div>
+                <div class="card">
+                    <img src="images/abi3400_400.png" alt="img">
+                    <p>The best of AB devilliers in test.Having already established himself as a class batsman by the
+                        time South Africa played Pakistan in 2010.
+                        After drawing the first Test of this two-match series, de Villiers scored an unbeaten 278 off
+                        418 balls, striking at 66.50. During his stellar innings, de Villiers hit 23 boundaries and beat
+                        the previous record held by former skipper Graeme Smith, which was 277.</p>
+                </div>
+                <div class="card">
+                    <video src="images/abchants.mp4" width="400px" height="400px" controls></video>
+                    <p>The 'ABD' chants took over the Wankhede Stadium during the 5th ODI between India and South Africa
+                        at Wankhede Stadium. The crowd reaction left local boy Rohit Sharma stunned. De Villiers went on
+                        to score 119 off just 61 balls.</p>
+                </div>
+                <div class="card">
+                    <img src="images/abi4400_400.png" alt="img">
+                    <p>It was RCB vs GL in qualifier-1. RCB were strugling to even cross 100 in the match but AB played
+                        a knock of unbeaten 81 and marched RCB to their final in 2016 IPL edition</p>
+                </div>
+                <div class="card">
+                    <video src="images/abvsrr.mp4" width="400px" height="400px" controls></video>
+                    <p>It was RCB vs RR in the 2020 edition of IPL and RCB needed 35 runs in just 2 overs when AB hitted
+                        5 monsters sixes in that 2 overs and rcb to a win</p>
+                </div>
+                <div class="card">
+                    <img src="images/abi5.png" alt="img">
+                    <p>The Revenge against MI.
+                        AB scored 133 runs and banged Jasprit Bumrah and others like hell with a complete 360 show.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>SoundCoder&copy; sports tribute section private ltd..</p>
+        <a id="btop" href="#navbar">Back To Top</a>
+    </footer>
+</body>
+
+</html>
