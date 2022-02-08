@@ -1,9 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    /* padding: 0px; */
     font-family: Dongle;
 }
-
 #main {
     background-color: rgb(216, 212, 212);
     border: 3px solid gray;
@@ -23,7 +22,7 @@
 }
 
 img {
-    max-width: 60%;
+    max-width: 100%;
 }
 
 #img-info {
@@ -146,7 +145,7 @@ img {
 
 .card img,
 .card video {
-    max-width: 60%;
+    max-width: 100%;
     padding: 5px;
     flex-shrink: 2;
 }
@@ -175,5 +174,15 @@ img {
     #imgandvid {
         font-size: 2vw;
         display: block;
+    }
+}
+@media (max-width:430px){
+    *{
+        font-size: 1.5vw;
+    }
+}
+@media (max-width:430px){
+    #list a{
+        padding: 0px 15px;
     }
 }
