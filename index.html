@@ -9,167 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: Dongle;
-        }
-
-        #main {
-            background-color: rgb(216, 212, 212);
-            border: 3px solid gray;
-            /* height: 100vh; */
-            padding: 10px;
-        }
-
-        #title {
-            font-size: 4vw;
-            text-align: center;
-            margin: 10px;
-        }
-
-        #img-div {
-            text-align: center;
-            margin: 10px;
-        }
-
-        img {
-            max-width: 60%;
-        }
-
-        #img-info {
-            margin: 10px;
-            font-size: 2vw;
-        }
-
-        #footer {
-            background-color: black;
-            color: bisque;
-            font-size: 2vw;
-            display: flex;
-            justify-content: space-between;
-            padding: 0px 20px;
-        }
-
-        #btop {
-            text-decoration: none;
-            color: bisque;
-        }
-
-        #btop:hover {
-            transform: scale(1.2);
-        }
-
-        #list li {
-            list-style-type: none;
-        }
-
-        #navbar {
-            display: flex;
-            justify-content: space-between;
-            background-color: black;
-            padding: 0px 20px;
-        }
-
-        #list,
-        #help {
-            display: flex;
-            align-items: center;
-        }
-
-        #list a,
-        #help a {
-            padding: 0px 20px;
-            font-size: 2vw;
-            text-decoration: none;
-            color: bisque;
-        }
-
-        #list a:hover,
-        #help a:hover {
-            transform: scale(1.2);
-            color: black;
-            background-color: bisque;
-            border-radius: 10px;
-            border: 2px solid gray;
-        }
-
-        #help {}
-
-        #companyname {
-            color: bisque;
-            padding: 0;
-            margin: 0;
-        }
-
-        #recordList {
-            margin: 20px;
-            display: block;
-            font-size: 2vw;
-        }
-
-        #recordList ul {
-            margin: 40px;
-        }
-
-        #careerInfo {
-            font-size: 2vw;
-            margin: 10px;
-        }
-
-        .carcomp p {
-            margin: 10px;
-        }
-
-        #highlights {
-            margin: 10px;
-            font-size: 2vw;
-        }
-
-        #imgandvid {
-            font-size: 1.5vw;
-            display: grid;
-            grid-template-columns: auto auto;
-            row-gap: 10px;
-            column-gap: 10px;
-        }
-
-        .card {
-            margin: 10px;
-            display: flex;
-            box-shadow: 0 10px 20px gray;
-        }
-
-        .card img,
-        .card video {
-            max-width: 60%;
-            padding: 5px;
-            flex-shrink: 2;
-        }
-
-        .card p {
-            padding: 10px;
-            flex-shrink: 1;
-            flex-grow: 2;
-        }
-
-        @media (max-width:1200px) {
-
-            #highlights img,
-            #highlights video {
-                width: 200px;
-                height: 200px;
-            }
-        }
-
-        @media (max-width:560px) {
-            #imgandvid {
-                font-size: 2vw;
-                display: block;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -204,7 +44,10 @@
         </figure>
         <hr>
         <div id="recordList">
-            <h1 id="recordTitle">Records And Acheivements</h1>
+            <div class="headandback">
+                <h1 id="recordTitle">Records And Acheivements</h1>
+                <a href="#navbar">Back To Top</a>
+            </div>
             <p>AB de Villiers or popularly called ABD by the fans is a South African batsman famous for his 360-degree
                 style of play. Since his debut in 2004, the pretorian has risen to gargantuan heights with his sheer raw
                 talent and
@@ -232,7 +75,10 @@
         </div>
         <hr>
         <div id="careerInfo">
-            <h2>Career</h2>
+            <div class="headandback">
+                <h2>Career</h2>
+                <a  href="#navbar">Back To Top</a>
+            </div>
             <div class="carcomp">
                 <h2>Test Career</h2>
                 <p>After impressing the selectors during his short stint in the first-class arena, AB de Villiers was
@@ -309,7 +155,10 @@
         </div>
         <hr>
         <div id="highlights">
-            <h2>Best Moments</h2>
+            <div class="headandback">
+                <h2>Best Moments</h2>
+                <a  href="#navbar">Back To Top</a>
+            </div>
             <div id="imgandvid">
                 <div class="card">
                     <img src="images/abi1400_400.png" alt="img">

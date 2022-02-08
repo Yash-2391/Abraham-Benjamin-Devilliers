@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Dongle;
+}
+
+#main {
+    background-color: rgb(216, 212, 212);
+    border: 3px solid gray;
+    /* height: 100vh; */
+    padding: 10px;
+}
+
+#title {
+    font-size: 4vw;
+    text-align: center;
+    margin: 10px;
+}
+
+#img-div {
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    max-width: 60%;
+}
+
+#img-info {
+    margin: 10px;
+    font-size: 2vw;
+}
+
+#footer {
+    background-color: black;
+    color: bisque;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+#btop {
+    text-decoration: none;
+    color: bisque;
+}
+
+#btop:hover {
+    transform: scale(1.2);
+}
+
+#list li {
+    list-style-type: none;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0px 20px;
+}
+
+#list,
+#help {
+    display: flex;
+    align-items: center;
+}
+
+#list a,
+#help a {
+    padding: 0px 20px;
+    font-size: 2vw;
+    text-decoration: none;
+    color: bisque;
+}
+
+#list a:hover,
+#help a:hover {
+    transform: scale(1.2);
+    color: black;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.headandback a{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 0px 20px;
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+}
+
+.headandback a:hover{
+    transform: scale(1.2);
+    color: bisque;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+#help {}
+
+#companyname {
+    color: bisque;
+    padding: 0;
+    margin: 0;
+}
+
+#recordList {
+    margin: 20px;
+    display: block;
+    font-size: 2vw;
+}
+
+#recordList ul {
+    margin: 40px;
+}
+
+#careerInfo {
+    font-size: 2vw;
+    margin: 10px;
+}
+
+.carcomp p {
+    margin: 10px;
+}
+
+#highlights {
+    margin: 10px;
+    font-size: 2vw;
+}
+
+#imgandvid {
+    font-size: 1.5vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.card {
+    margin: 10px;
+    display: flex;
+    box-shadow: 0 10px 20px gray;
+}
+
+.card img,
+.card video {
+    max-width: 60%;
+    padding: 5px;
+    flex-shrink: 2;
+}
+
+.card p {
+    padding: 10px;
+    flex-shrink: 1;
+    flex-grow: 2;
+}
+
+.headandback{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:1200px) {
+
+    #highlights img,
+    #highlights video {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width:560px) {
+    #imgandvid {
+        font-size: 2vw;
+        display: block;
+    }
+}
